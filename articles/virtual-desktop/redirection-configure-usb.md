@@ -86,7 +86,7 @@ Before you can configure USB redirection using opaque low-level redirection, you
 
 - A USB device you can use to test the redirection configuration.
 
-- To configure Microsoft Intune, you need:
+- To configure Microsoft Intune, you need: 
 
    - Microsoft Entra ID account that is assigned the [Policy and Profile manager](/mem/intune/fundamentals/role-based-access-control-reference#policy-and-profile-manager) built-in RBAC role.
    - A group containing the devices you want to configure.
@@ -122,7 +122,7 @@ The default configuration is:
 
 Select the relevant tab for your scenario.
 
-# [Microsoft Intune](#tab/intune)
+# [Microsoft Intune](#tab/intune) 
 
 To enable Plug and Play redirection using Microsoft Intune:
 
@@ -179,7 +179,7 @@ The default configuration is:
 
 Select the relevant tab for your scenario.
 
-# [Microsoft Intune](#tab/intune)
+# [Microsoft Intune](#tab/intune) ---> REMOVE this configuration option - this will not work by design until Intune PG fix it. This is causing customer to open support cases and have false expectations. Only GPO options works for now
 
 To allow RDP redirection of other supported USB peripherals using Microsoft Intune:
 
